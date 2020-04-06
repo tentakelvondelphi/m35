@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Meine Kontakdaten</title>
+  </head>
+  <body>
+    <h3>Meine Kontaktdaten</h3>
+    <table cellspacing="20">
+      <tr>
+        <td>Handy</td>
+        <td><em>+4917663108817</em></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><a href="mailto:christian_foertsch@gmx.net?subject=feedback"><img src="images/mail.jpg" alt="Mail Bild" width="30" height="30"></a></td>
+      </tr>
+      <tr>
+        <td>Twitter</td>
+        <td><a href="https://twitter.com/cat_cattivo"><img src="images/twitter.png" alt="Bild" width="30" height="25"</a></td>
+      </tr>
+      <tr>
+        <td>Telefon (Mobil)</td>
+        <td><a href="tel:+4917663108817"><img src="images/phone.jpg" alt="Bild Telephone" width="38" height="28"></td>
+      </tr>
+      <tr>
+        <td>WhatsApp</td>
+        <td><a href="https://wa.me/4917663108817"><img src="images/wa.png" alt="Bild WA" width="30" height="30"></td>
+      </tr>
+    </table>
+    <p>Falls Sie mich nicht direkt kontaktieren möchten, nutzen Sie das <strong>Kontaktformular.</strong></p>
+    <p>
+      <form action="mailto:christian_foertsch@gmx.net?subject=KontaktformularHP" method="post" enctype="text/plain">
+        <label>Name:</label><br>
+        <input type="text" name="Name" value=""><br>
+        <label>Ihre E-Mailadresse:</label><br>
+        <input type="text" name="E-Mailadresse" value=""><br>
+        <label>Ihre Nachricht:</label><br>
+      <textarea name="Nachricht" rows="10" cols="20"></textarea><br>
+        <input type="submit" name=""><br>
+      </form>
+      <br>
+      <br>
+      <button onclick="goBack()">Zurück zur Homepage</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+    <br>
+
+    </body>
+</html>
