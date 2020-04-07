@@ -1,0 +1,26 @@
+body {
+  background-color: #cae8d5;
+}
+
+hr {
+  background-color: #cae8d5;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3b6978;
+  border-width: 5px;
+  width: 4%;
+}
+
+h1 {
+  color: #84a9ac;
+  font-family: 'VT323',monospace;
+}
+
+h3 {
+  color: #204051;
+  font-family: 'VT323',monospace;
+}
+
+p {
+  font-family: 'VT323',monospace;
+}
